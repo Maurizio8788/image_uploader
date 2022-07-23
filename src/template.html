@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body class="bg-main">
+    <div class="container mx-auto flex items-center justify-center h-screen w-full">
+        <div class="w-96 h-96 bg-white rounded-xl shadow-cardShadow">
+            <div class="p-6 w-full flex flex-col items-center justify-center">
+                <h1 class="text-lg tracking-tight text-gray-2">Upload your image</h1>
+                <h3 class="text-xxs text-gray-3 leading-3 mt-4">File should be Jpeg, Png,...</h3>
+            </div>
+            <div class="bg-drag&drop border-2 border-dashed border-light-blue w-80 h-56 mx-auto flex justify-center items-start ">
+                <img id="drag" src="" alt="drag & drop" class="w-" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>

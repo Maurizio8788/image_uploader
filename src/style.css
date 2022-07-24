@@ -2,11 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-    @apply bg-black	;
+@layer components {
+    .btn-upload {
+        @apply bg-blue-1 text-white rounded-lg w-28 h-8 text-xs font-noto cursor-pointer flex justify-center items-center;
+    }
+
 }
 
-h1 {
-    @apply text-white;
-} */
 
+body {
+    @apply font-medium;
+}

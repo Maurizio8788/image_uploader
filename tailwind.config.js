@@ -3,7 +3,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        sans:['Poppins', "sans-serif"]
+        poppins:['Poppins', "sans-serif"],
+        noto:["Noto Sans", "sans-serif"]
       },
       boxShadow:{
         "cardShadow":" 0px 4px 12px rgba(0, 0, 0, 0.1)"
@@ -13,12 +14,21 @@ module.exports = {
       },
       colors:{
         "gray-2":"#4F4F4F",
-        "gray-3":"#828282"
+        "gray-3":"#828282",
+        "gray-4":"#BDBDBD",
+        "footer":"#A9A9A9",
+        "light-blue":"#97BEF4",
       },
       backgroundColor:{
         "main":"#FAFAFB",
         "drag&drop":"#F6F8FB",
-        "light-blue":"#97BEF4"
+        "blue-1":"#2F80ED"
+      },
+      width:{
+        "card":"402px"
+      },
+      height:{
+        "card":"469px"
       }
     },
   },
